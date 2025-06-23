@@ -1,0 +1,56 @@
+.container {
+    width: 300px !important;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: #999;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box span {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+.container h2 {
+    color: white;
+}
+
+.reset {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+}
